@@ -1,0 +1,67 @@
+R presentation Demo
+========================================================
+author: Murali
+date: 14/May/2015
+# 
+This is *italic*    
+This is **bold**
+# Header 1
+## Header 2
+### Header 3
+Mrkdoen tips...
+===============
+* Item 1
+* Item 2
+  + Item 2a
+  + Item 2b
+  
+[R Capsules] (http://rcapsules.com)   
+> This is block quote   
+> Title ends here
+
+
+First Slide
+========================================================
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3   
+--- HR   
+**** HR   
+
+superscript^2^    
+
+
+~~strikethrough~~    
+ASCII characters are transformed into typographic HTML entities:
+Straight quotes ( " and ' ) into “curly” quotes
+Dashes (“--” and “---”) into en- and em-dash entities
+Three consecutive dots (“...”) into an ellipsis entity
+
+Two-Column Slide
+====================================
+First column
+Hi There
+***
+Second column
+HI here  
+Yet another one
+
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+length(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
